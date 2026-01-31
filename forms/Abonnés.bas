@@ -1,0 +1,294 @@
+﻿Version =19
+VersionRequired =19
+Begin Form
+    AutoCenter = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    Width =7344
+    DatasheetFontHeight =10
+    ItemSuffix =31
+    Left =2700
+    Top =1425
+    Right =10575
+    Bottom =5370
+    DatasheetGridlinesColor =12632256
+    Toolbar ="Abonnés"
+    RecSrcDt = Begin
+        0x4ff776da6ebae140
+    End
+    RecordSource ="Abonnés"
+    Caption ="Abonnés"
+    OnCurrent ="[Event Procedure]"
+    OnClose ="[Event Procedure]"
+    MenuBar ="Barre de menus Abonnés"
+    DatasheetFontName ="Arial"
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+        End
+        Begin CommandButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BackStyle =0
+        End
+        Begin TextBox
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BackColor =-2147483643
+            BorderColor =-2147483640
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin Subform
+            SpecialEffect =2
+        End
+        Begin ToggleButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+        End
+        Begin FormHeader
+            Height =0
+            BackColor =-2147483633
+            Name ="FormHeader"
+        End
+        Begin Section
+            CanGrow = NotDefault
+            Height =3000
+            BackColor =-2147483633
+            Name ="Detail"
+            Begin
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    Left =6192
+                    Top =240
+                    Width =955
+                    Height =261
+                    ColumnWidth =1139
+                    BackColor =12632256
+                    Name ="RéfAbonné"
+                    ControlSource ="RéfAbonné"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =4896
+                            Top =236
+                            Width =1126
+                            Height =248
+                            Name ="Réf. abonné"
+                            Caption ="Réf. abonné"
+                            EventProcPrefix ="Réf__abonné"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1579
+                    Top =240
+                    Width =1728
+                    Height =261
+                    ColumnWidth =2801
+                    TabIndex =1
+                    Name ="FirstName"
+                    ControlSource ="Prénom"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =170
+                            Top =236
+                            Width =1296
+                            Height =261
+                            Name ="Prénom"
+                            Caption ="Prénom"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1579
+                    Top =590
+                    Width =2801
+                    Height =261
+                    ColumnWidth =2801
+                    TabIndex =2
+                    Name ="NomFamille"
+                    ControlSource ="NomFamille"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =170
+                            Top =590
+                            Width =1296
+                            Height =261
+                            Name ="Nom"
+                            Caption ="Nom"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1579
+                    Top =960
+                    Width =2801
+                    Height =261
+                    ColumnWidth =2801
+                    TabIndex =3
+                    Name ="CompanyName"
+                    ControlSource ="Société"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =170
+                            Top =970
+                            Width =1296
+                            Height =261
+                            Name ="Société"
+                            Caption ="Société"
+                        End
+                    End
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    Left =1579
+                    Top =1322
+                    Width =4752
+                    Height =470
+                    ColumnWidth =3000
+                    TabIndex =4
+                    Name ="Address"
+                    ControlSource ="Adresse"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =170
+                            Top =1322
+                            Width =1296
+                            Height =261
+                            Name ="Adresse"
+                            Caption ="Adresse"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1579
+                    Top =1889
+                    Width =2016
+                    Height =261
+                    ColumnWidth =2801
+                    TabIndex =5
+                    Name ="Ville"
+                    ControlSource ="Ville"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =170
+                            Top =1937
+                            Width =1296
+                            Height =261
+                            Name ="Ville/Code postal"
+                            Caption ="Ville/Code postal"
+                            EventProcPrefix ="Ville_Code_postal"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =3741
+                    Top =1889
+                    Height =261
+                    ColumnWidth =1885
+                    TabIndex =6
+                    Name ="CodePostal"
+                    ControlSource ="CodePostal"
+                    InputMask ="00000;;_"
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =1579
+                    Top =2362
+                    Width =1728
+                    Height =261
+                    ColumnWidth =2801
+                    TabIndex =7
+                    Name ="Phone"
+                    ControlSource ="Téléphone"
+                    InputMask ="00\\ 00\\ 00\\ 00\\ 00;;_"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =170
+                            Top =2362
+                            Width =1071
+                            Height =261
+                            Name ="Téléphone"
+                            Caption ="Téléphone"
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    Left =5774
+                    Top =2362
+                    Width =1295
+                    Height =261
+                    ColumnWidth =876
+                    TabIndex =8
+                    Name ="PaidThrough"
+                    ControlSource ="Echéance"
+                    Format ="mmm yy"
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =4478
+                            Top =2369
+                            Width =1126
+                            Height =248
+                            Name ="Échéance"
+                            Caption ="Échéance"
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483633
+            Name ="FormFooter"
+        End
+    End
+End
+CodeBehindForm
+' See "Abonnés.cls"

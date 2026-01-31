@@ -1,0 +1,19 @@
+﻿{
+  "Info": {
+    "Class": "clsDbDocument",
+    "Description": "Database Documents Properties (DAO)"
+  },
+  "Items": {
+    "Databases": {
+      "SummaryInfo": {
+        "Subject": "Fichiers exemples Access VB Ch11",
+        "Title": "Ch11 Abonnement"
+      }
+    },
+    "Modules": {
+      "Divers": {
+        "Description": "Contient plusieurs fonctions générales que vous pouvez copier."
+      }
+    }
+  }
+}

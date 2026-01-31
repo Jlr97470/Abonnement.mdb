@@ -1,0 +1,28 @@
+﻿{
+  "Info": {
+    "Class": "clsDbReport",
+    "Description": "MailingPetitesEtiquettes Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Portrait",
+      "PaperSize": "A4"
+    },
+    "Margins": {
+      "LeftMargin": 0.2632,
+      "TopMargin": 0.5,
+      "RightMargin": 0.2771,
+      "BotMargin": 0.5,
+      "DataOnly": false,
+      "Width": 2.716,
+      "Height": 1.3451,
+      "DefaultSize": true,
+      "Columns": 3,
+      "ColumnSpacing": 0.125,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    }
+  }
+}
