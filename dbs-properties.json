@@ -9,11 +9,11 @@
       "Type": 10
     },
     "Build": {
-      "Value": 128,
+      "Value": 1126,
       "Type": 4
     },
     "CollatingOrder": {
-      "Value": 1033,
+      "Value": 1036,
       "Type": 3
     },
     "Connect": {
@@ -27,6 +27,26 @@
     "Name": {
       "Value": "rel:Abonnement.mdb",
       "Type": 12
+    },
+    "NavPane Category": {
+      "Value": 0,
+      "Type": 4
+    },
+    "NavPane Closed": {
+      "Value": 0,
+      "Type": 4
+    },
+    "NavPane Sort By": {
+      "Value": 1,
+      "Type": 4
+    },
+    "NavPane View By": {
+      "Value": 0,
+      "Type": 4
+    },
+    "NavPane Width": {
+      "Value": 215,
+      "Type": 4
     },
     "Perform Name AutoCorrect": {
       "Value": 0,
@@ -47,6 +67,10 @@
     "ReplicaID": {
       "Value": "",
       "Type": 15
+    },
+    "Show Navigation Pane Search Bar": {
+      "Value": 0,
+      "Type": 4
     },
     "Track Name AutoCorrect Info": {
       "Value": 0,

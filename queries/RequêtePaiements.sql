@@ -1,5 +1,5 @@
-﻿SELECT
-  DISTINCTROW Paiements.NoPaiement,
+﻿SELECT DISTINCTROW
+  Paiements.NoPaiement,
   Paiements.RéfAbonné,
   Paiements.DatePaiement,
   Abonnés.Echéance,

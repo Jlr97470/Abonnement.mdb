@@ -1,0 +1,54 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "RequêtePaiements"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "OrderOn": {
+        "Type": 1,
+        "Value": false
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": -27,
+        "top": 25,
+        "right": 785,
+        "bottom": 377
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 805,
+        "bottom": 165
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "Abonnés",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 113,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "Paiements",
+          "Alias": "",
+          "Left": 172,
+          "Top": 6,
+          "Right": 268,
+          "Bottom": 113,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

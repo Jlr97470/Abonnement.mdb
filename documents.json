@@ -6,13 +6,14 @@
   "Items": {
     "Databases": {
       "SummaryInfo": {
-        "Subject": "Fichiers exemples Access VB Ch11",
-        "Title": "Ch11 Abonnement"
-      }
-    },
-    "Modules": {
-      "Divers": {
-        "Description": "Contient plusieurs fonctions générales que vous pouvez copier."
+        "Subject": {
+          "Type": 10,
+          "Value": "Fichiers exemples Access VB Ch11"
+        },
+        "Title": {
+          "Type": 10,
+          "Value": "Ch11 Abonnement"
+        }
       }
     }
   }
