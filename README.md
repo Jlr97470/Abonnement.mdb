@@ -1,2 +1,2 @@
-Exemple Base Abonnement.
-Access 2006
+Exemple application Abonnement.
+Access 2003.
